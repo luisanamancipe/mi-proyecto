@@ -60,7 +60,7 @@ h1{
 #joto {
     width: 100%;
     max-width: 500px;
-    border-radius: 60%;
+    border-radius: 50%;
 }
 
 article {
@@ -81,7 +81,7 @@ article {
     padding: 10px 35px;
     margin: 10px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 80%;
     color:black;
     display:inline-block;
     }
@@ -94,14 +94,24 @@ a {
 }
 #contact {
     margin: 30px;
+    border-color: rgb(80, 43, 226);
+    background-color: rgb(188, 133, 241);
 }
 
 #icono{
-    width: 30%;
+    box-sizing:content-box;
+    width: 40%;
     max-width: 50px;
-    width:10%;
     margin: 30px;
     padding:10px;
-    flex-direction: row;
-   }
+    flex-direction:column;
+    padding-inline-start: 100;
+}
+
+footer{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Berkshire Swash', cursive;
+}
 
