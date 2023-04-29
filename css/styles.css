@@ -63,7 +63,6 @@ header {
     transition: all 0.4s linear;
     border-radius: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 .nav ul li a:hover {
     background: #ccc;
@@ -188,10 +187,7 @@ footer{
 }
 @media screen and (max-width: 980px){
     #icono {
-        width: 60%;
-        align-items: center;
-        justify-content: space-between;
-    }
+        width: 60%;}
 }
 @media screen and (max-width: 980px){
     #CV {
