@@ -144,3 +144,8 @@ footer{
         width: 30%;
     }
 }
+@media screen and (max-width: 980px){
+    #icono {
+        width: 25%;
+    }
+}
